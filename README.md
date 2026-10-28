@@ -11,7 +11,6 @@
 - **NLP Topic Classifier**: Automated question bank classification using TF-IDF n-grams (1, 2) and Logistic Regression.
 - **Targeted Remedial Practice**: 1-click single-topic drill generation targeting lowest-mastery subjects.
 - **Cognitive Behaviour Telemetry**: 4-quadrant pacing matrix (*Rapid Fluency*, *Deep Mastery*, *Hesitant Competence*, *Critical Struggle*) and responsive vector SVG radar visualizations.
-- **Modern Dark UI**: Premium Streamlit dashboard featuring persistent student profiling, live telemetry inspection, and quiz performance analytics.
 
 ---
 
