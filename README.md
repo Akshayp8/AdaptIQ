@@ -1,27 +1,21 @@
 # AdaptIQ — Adaptive AI Learning System
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B.svg)](https://streamlit.io/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4+-F7931E.svg)](https://scikit-learn.org/)
-[![scikit-fuzzy](https://img.shields.io/badge/scikit--fuzzy-0.4.2-green.svg)](https://github.com/scikit-fuzzy/scikit-fuzzy)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 **AdaptIQ** is an intelligent, real-time adaptive learning engine designed to assess student competency, dynamically modulate assessment difficulty, and model latent knowledge states. Built with a combination of **Mamdani Fuzzy Logic**, **Bayesian Knowledge Tracing (BKT)**, and **Natural Language Processing (NLP)**, AdaptIQ delivers individualized pedagogical pacing and cognitive telemetry.
 
 ---
 
-## 🌟 Key Highlights
+## Key Highlights
 
-- **🧠 Mamdani Fuzzy Pacing Engine**: 9 inference rules computing real-time difficulty adjustments from rolling response accuracy and response latency.
-- **📊 Bayesian Knowledge Tracing (BKT)**: Probabilistic student mastery modeling with slip, guess, and transition parameters, enforced with **Cromwell's Rule** ($0.01 \le P(L_t) \le 0.95$) to prevent certainty traps.
-- **🔤 NLP Topic Classifier**: Automated question bank classification using TF-IDF n-grams (1, 2) and Logistic Regression.
-- **🎯 Targeted Remedial Practice**: 1-click single-topic drill generation targeting lowest-mastery subjects.
-- **📈 Cognitive Behaviour Telemetry**: 4-quadrant pacing matrix (*Rapid Fluency*, *Deep Mastery*, *Hesitant Competence*, *Critical Struggle*) and responsive vector SVG radar visualizations.
-- **🎨 Modern Dark UI**: Premium Streamlit dashboard featuring persistent student profiling, live telemetry inspection, and quiz performance analytics.
+- **Mamdani Fuzzy Pacing Engine**: 9 inference rules computing real-time difficulty adjustments from rolling response accuracy and response latency.
+- **Bayesian Knowledge Tracing (BKT)**: Probabilistic student mastery modeling with slip, guess, and transition parameters, enforced with **Cromwell's Rule** ($0.01 \le P(L_t) \le 0.95$) to prevent certainty traps.
+- **NLP Topic Classifier**: Automated question bank classification using TF-IDF n-grams (1, 2) and Logistic Regression.
+- **Targeted Remedial Practice**: 1-click single-topic drill generation targeting lowest-mastery subjects.
+- **Cognitive Behaviour Telemetry**: 4-quadrant pacing matrix (*Rapid Fluency*, *Deep Mastery*, *Hesitant Competence*, *Critical Struggle*) and responsive vector SVG radar visualizations.
+- **Modern Dark UI**: Premium Streamlit dashboard featuring persistent student profiling, live telemetry inspection, and quiz performance analytics.
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -47,7 +41,7 @@ flowchart TD
 
 ---
 
-## 🔬 Mathematical Formulations
+## Mathematical Formulations
 
 ### 1. Bayesian Knowledge Tracing (BKT)
 
@@ -79,7 +73,7 @@ $$P(L_t) = P(L_t \mid \text{Evidence}) + (1 - P(L_t \mid \text{Evidence})) \cdot
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 AdaptIQ/
@@ -119,7 +113,7 @@ AdaptIQ/
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Clone the Repository
 
@@ -162,7 +156,7 @@ Open your browser to `http://localhost:8501`.
 
 ---
 
-## 🧪 Running the Test Suite
+## Running the Test Suite
 
 Execute comprehensive unit tests covering Fuzzy Logic boundaries, Bayesian transitions, Cromwell bounds, database persistence, and NLP classification:
 
@@ -172,7 +166,7 @@ pytest -v
 
 ---
 
-## 📊 Cognitive Visualizations
+## Cognitive Visualizations
 
 | Fuzzy Membership Curves | Adaptive Simulation Trajectory |
 | :---: | :---: |
@@ -180,12 +174,6 @@ pytest -v
 
 ---
 
-## 👤 Author
-
-- **Akshay Patil** — [GitHub (@Akshayp8)](https://github.com/Akshayp8)
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
