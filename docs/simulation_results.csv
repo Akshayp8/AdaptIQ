@@ -1,0 +1,61 @@
+type,topic,difficulty,correct,time_taken
+Strong,Lists and Dictionaries,Medium,1,12.1
+Strong,Loops and Conditionals,Hard,1,12.9
+Strong,Functions,Hard,1,7.4
+Strong,Variables and Data Types,Hard,0,13.5
+Strong,Variables and Data Types,Hard,1,12.4
+Strong,Functions,Hard,1,12.7
+Strong,Loops and Conditionals,Hard,1,9.8
+Strong,Variables and Data Types,Hard,0,6.8
+Strong,Variables and Data Types,Medium,1,10.0
+Strong,Variables and Data Types,Hard,1,16.0
+Strong,Loops and Conditionals,Hard,1,16.9
+Strong,Loops and Conditionals,Hard,1,14.2
+Strong,Variables and Data Types,Hard,1,17.4
+Strong,Loops and Conditionals,Hard,1,26.0
+Strong,Lists and Dictionaries,Hard,1,26.9
+Strong,Loops and Conditionals,Hard,1,13.7
+Strong,Variables and Data Types,Hard,1,12.9
+Strong,Lists and Dictionaries,Hard,1,10.2
+Strong,Loops and Conditionals,Easy,1,19.5
+Strong,Lists and Dictionaries,Hard,1,15.2
+Average,Variables and Data Types,Medium,0,28.2
+Average,Loops and Conditionals,Medium,1,44.4
+Average,Variables and Data Types,Medium,0,53.6
+Average,Variables and Data Types,Medium,0,54.6
+Average,Variables and Data Types,Medium,1,44.6
+Average,Variables and Data Types,Medium,1,43.2
+Average,Loops and Conditionals,Medium,0,46.4
+Average,Loops and Conditionals,Medium,1,34.0
+Average,Functions,Medium,1,42.8
+Average,Variables and Data Types,Hard,1,34.2
+Average,Variables and Data Types,Hard,0,46.7
+Average,Lists and Dictionaries,Medium,1,42.1
+Average,Lists and Dictionaries,Hard,1,44.8
+Average,Loops and Conditionals,Hard,0,28.6
+Average,Lists and Dictionaries,Medium,0,42.4
+Average,Loops and Conditionals,Medium,0,59.5
+Average,Loops and Conditionals,Medium,0,33.4
+Average,Loops and Conditionals,Medium,1,55.6
+Average,Loops and Conditionals,Medium,0,47.7
+Average,Variables and Data Types,Medium,1,33.0
+Weak,Functions,Medium,0,36.2
+Weak,Functions,Medium,0,62.8
+Weak,Functions,Medium,0,60.6
+Weak,Functions,Medium,0,62.2
+Weak,Lists and Dictionaries,Medium,1,64.8
+Weak,Functions,Medium,0,78.5
+Weak,Functions,Easy,0,87.3
+Weak,Functions,Easy,0,55.9
+Weak,Loops and Conditionals,Easy,0,84.2
+Weak,Functions,Easy,0,53.3
+Weak,Functions,Easy,0,109.5
+Weak,Lists and Dictionaries,Easy,0,57.1
+Weak,Functions,Easy,0,53.3
+Weak,Functions,Easy,0,79.6
+Weak,Functions,Easy,1,77.0
+Weak,Loops and Conditionals,Easy,0,70.9
+Weak,Lists and Dictionaries,Easy,0,90.7
+Weak,Functions,Medium,1,66.2
+Weak,Loops and Conditionals,Medium,0,49.1
+Weak,Loops and Conditionals,Medium,0,86.3

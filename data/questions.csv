@@ -1,0 +1,81 @@
+id,question,option_a,option_b,option_c,option_d,answer,topic,difficulty
+1,"What is the output of: x = 5; print(type(x))?","<class 'float'>","<class 'int'>","<class 'str'>","<class 'num'>",b,Variables and Data Types,Easy
+2,"Which of these creates a string in Python?",x = 10,x = 10.0,x = '10',"x = [10]",c,Variables and Data Types,Easy
+3,"What does bool(0) return?",True,False,0,None,b,Variables and Data Types,Easy
+4,"Which keyword is used to create a variable that cannot be reassigned (by convention in Python)?",const,final,CAPS_NAME,static,c,Variables and Data Types,Easy
+5,"What is the value of 10 / 3 in Python 3?","3","3.3333...","3.0","Error",b,Variables and Data Types,Easy
+6,"What type does the expression 3 + 4.0 produce?",int,float,str,complex,b,Variables and Data Types,Easy
+7,"Which of these is a valid Python variable name?",2count,my-var,_value,class,c,Variables and Data Types,Easy
+8,"What does int('42') return?",42,'42',42.0,Error,a,Variables and Data Types,Medium
+9,"What is the output of: print(type(3.14))?","<class 'int'>","<class 'float'>","<class 'num'>","<class 'double'>",b,Variables and Data Types,Medium
+10,"What does x, y = 1, 2 do?",Creates a list,Assigns 1 to x and 2 to y,Raises a SyntaxError,Creates a tuple called x,b,Variables and Data Types,Medium
+11,"Which operation returns an integer in Python 3?",5 / 2,5 // 2,5 / 2.0,5.0 / 2,b,Variables and Data Types,Medium
+12,"What is the output of: x = None; print(bool(x))?",None,True,False,Error,c,Variables and Data Types,Medium
+13,"What does float('inf') represent?",An error,Infinity,Zero,Not a number,b,Variables and Data Types,Medium
+14,"What is the result of 0b1010 in decimal?",8,10,12,16,b,Variables and Data Types,Medium
+15,"What is the difference between is and ==?","is checks value, == checks identity","is checks identity, == checks value","Both check value","Both check identity",b,Variables and Data Types,Hard
+16,"What is the output of: x = 0.1 + 0.2; print(x == 0.3)?",True,False,Error,None,b,Variables and Data Types,Hard
+17,"What does id(x) return?",The value of x,The type of x,The memory address of x,The length of x,c,Variables and Data Types,Hard
+18,"What is the output of: x = y = 5; y = 10; print(x)?",10,5,Error,None,b,Variables and Data Types,Hard
+19,"Which of these correctly unpacks a nested tuple (1,(2,3))?","a, b = (1,(2,3))","a, (b, c) = (1,(2,3))","a, b, c = (1,(2,3))","a = (1,(2,3))",b,Variables and Data Types,Hard
+20,"What is the result of: x = complex(2,3); print(x.real)?",3,2.0,3.0,2,b,Variables and Data Types,Hard
+21,"What does a for loop do?","Runs code while a condition is True","Repeats code over a sequence","Defines a function","Imports a module",b,Loops and Conditionals,Easy
+22,"What is the output of: for i in range(3): print(i)?","0 1 2","1 2 3","0 1 2 3","1 2",a,Loops and Conditionals,Easy
+23,"Which keyword exits a loop immediately?",continue,pass,break,return,c,Loops and Conditionals,Easy
+24,"What does the else clause of a for loop do?","Runs if the loop raised an error","Runs if break was not called","Runs before the loop starts","Always runs after the loop",b,Loops and Conditionals,Easy
+25,"What is the output of: x = 5; print('yes' if x > 3 else 'no')?",no,yes,5,Error,b,Loops and Conditionals,Easy
+26,"Which of these is a valid while loop?","while x > 0: pass","while (x > 0)","while x > 0","while x = 0: pass",a,Loops and Conditionals,Easy
+27,"What does continue do in a loop?",Exits the loop,Skips the rest of the current iteration,Starts the loop over,Does nothing,b,Loops and Conditionals,Easy
+28,"What is the output of: i = 0; while i < 3: i += 1; print(i)?","1 2 3","0 1 2","0 1 2 3","1 2 3 4",a,Loops and Conditionals,Medium
+29,"What does range(1, 10, 2) produce?","1 3 5 7 9","1 2 3 ... 10","2 4 6 8","0 2 4 6 8",a,Loops and Conditionals,Medium
+30,"What is the output of: for i in range(5): if i == 3: break; print(i)?","0 1 2 3","0 1 2","0 1 2 3 4","1 2 3",b,Loops and Conditionals,Medium
+31,"What does elif stand for?",else-if,else if loop,else increment,end if,a,Loops and Conditionals,Medium
+32,"How many times does a while True: pass loop run without break?",Once,Zero,Forever,Undefined,c,Loops and Conditionals,Medium
+33,"What is the output of: for i in range(2): for j in range(2): print(i+j)?","0 1 1 2","0 0 1 1","0 1 2 3","1 1 2 2",a,Loops and Conditionals,Medium
+34,"What is the output of: x = 10; print('a' if x < 5 else 'b' if x < 15 else 'c')?",a,b,c,Error,b,Loops and Conditionals,Medium
+35,"What does enumerate() return when used in a for loop?","Only indices","Only values","Index-value pairs","A list",c,Loops and Conditionals,Hard
+36,"What is the output of: [x*2 for x in range(4) if x % 2 == 0]?","[0, 4]","[0, 2, 4, 6]","[0, 4, 8]","[2, 6]",a,Loops and Conditionals,Hard
+37,"What is the output of: result = []; [result.append(i) for i in range(3)]; print(result)?","[0, 1, 2]","[None, None, None]","[1, 2, 3]","[]",a,Loops and Conditionals,Hard
+38,"What does zip([1,2],[3,4]) produce?","[(1,2),(3,4)]","[(1,3),(2,4)]","[1,2,3,4]","[(1,3,2,4)]",b,Loops and Conditionals,Hard
+39,"What is the output of: for i in range(3): pass; print(i)?",Error,2,3,0,b,Loops and Conditionals,Hard
+40,"What does any([False, False, True]) return?",False,True,None,Error,b,Loops and Conditionals,Hard
+41,"What keyword is used to define a function?",func,define,def,function,c,Functions,Easy
+42,"What does a function return if there is no return statement?",0,False,None,Error,c,Functions,Easy
+43,"What is the output of: def greet(): return 'hi'; print(greet())?",greet,hi,None,Error,b,Functions,Easy
+44,"What are the inputs to a function called?",Variables,Arguments or Parameters,Returns,Locals,b,Functions,Easy
+45,"Can a function call itself?",No,Only with a special keyword,Yes,Only in Python 3.10+,c,Functions,Easy
+46,"What does *args allow a function to accept?",Only keyword arguments,Any number of positional arguments,A list,A dictionary,b,Functions,Easy
+47,"What is the output of: def add(a, b=2): return a + b; print(add(3))?",3,5,2,Error,b,Functions,Easy
+48,"What is a lambda function?",A named function,A class method,A small anonymous function,A built-in function,c,Functions,Medium
+49,"What is the output of: f = lambda x: x**2; print(f(4))?",8,16,4,2,b,Functions,Medium
+50,"What does **kwargs allow?",Any number of positional arguments,Any number of keyword arguments,Default arguments,Global variables,b,Functions,Medium
+51,"What is the scope of a variable defined inside a function?",Global,Module,Local,Class,c,Functions,Medium
+52,"What does the global keyword do?",Creates a new variable,Imports a module,Allows a function to modify a global variable,Deletes a variable,c,Functions,Medium
+53,"What is the output of: def f(x, y=10): return x - y; print(f(y=3, x=8))?",5,-2,11,Error,a,Functions,Medium
+54,"What is a docstring?","A comment outside a function","A string literal as the first statement of a function","A type hint","A variable name",b,Functions,Medium
+55,"What does functools.lru_cache do?",Clears a function's cache,Logs function calls,Caches a function's return values for repeated inputs,Limits recursion depth,c,Functions,Hard
+56,"What is the output of: def counter(): n=0; def inc(): nonlocal n; n+=1; return n; return inc; c=counter(); print(c(),c())?","1 2","0 1","1 1","Error",a,Functions,Hard
+57,"What is the difference between a positional-only and keyword-only parameter?","Positional-only uses / and keyword-only uses *","Both use *","Both use /","There is no difference in Python",a,Functions,Hard
+58,"What does map(str, [1,2,3]) return?","['1','2','3']","A map object that yields '1', '2', '3'","[1,2,3]",Error,b,Functions,Hard
+59,"What is the output of: def f(*args): return sum(args); print(f(*[1,2,3]))?",6,"[1,2,3]",Error,None,a,Functions,Hard
+60,"What is memoization?",Running a function in parallel,Caching the results of expensive function calls,Measuring function speed,Documenting a function,b,Functions,Hard
+61,"How do you create an empty list?","list = {}","list = []","list = ()","list = <>",b,Lists and Dictionaries,Easy
+62,"What does len([1, 2, 3]) return?",1,2,3,4,c,Lists and Dictionaries,Easy
+63,"How do you add an item to the end of a list?",list.add(x),list.insert(x),list.append(x),list.push(x),c,Lists and Dictionaries,Easy
+64,"What is the output of: x = [1,2,3]; print(x[1])?",1,2,3,Error,b,Lists and Dictionaries,Easy
+65,"How do you create an empty dictionary?","d = []","d = {}","d = ()","d = set()",b,Lists and Dictionaries,Easy
+66,"How do you access the value for key 'name' in dict d?",d.name,d['name'],d->name,d(name),b,Lists and Dictionaries,Easy
+67,"What does x = [0]*3 create?","[0,1,2]","[0,0,0]","[3,3,3]","[0,3]",b,Lists and Dictionaries,Easy
+68,"What is the output of: d = {'a':1}; d['b'] = 2; print(len(d))?",1,2,3,Error,b,Lists and Dictionaries,Medium
+69,"What does list.pop() do?",Adds an item,Removes and returns the last item,Removes all items,Returns the last item without removing,b,Lists and Dictionaries,Medium
+70,"What is the output of: x = [1,2,3,4,5]; print(x[1:3])?","[1,2]","[2,3]","[2,3,4]","[1,2,3]",b,Lists and Dictionaries,Medium
+71,"How do you get all keys from a dictionary d?",d.values(),d.items(),d.keys(),d.all(),c,Lists and Dictionaries,Medium
+72,"What is the output of: x = [3,1,2]; x.sort(); print(x)?","[3,1,2]","[1,2,3]","[2,1,3]",Error,b,Lists and Dictionaries,Medium
+73,"What does dict.get('key', 'default') return if 'key' is missing?",None,Error,'default','key',c,Lists and Dictionaries,Medium
+74,"What is a list comprehension?","A way to copy a list","A compact way to create a list with a loop","A type of dictionary","A sorting method",b,Lists and Dictionaries,Medium
+75,"What is the output of: {k: v for k, v in [('a',1),('b',2)]}?","{'a': 1, 'b': 2}","[('a',1),('b',2)]","{'a','b'}","{'1','2'}",a,Lists and Dictionaries,Hard
+76,"What does collections.defaultdict(list) do?",Creates a sorted dict,Creates a dict where missing keys return an empty list,Flattens a nested list,Counts list elements,b,Lists and Dictionaries,Hard
+77,"What is the output of: x = [[1,2],[3,4]]; print([n for row in x for n in row])?","[[1,2],[3,4]]","[1,2,3,4]","[1,3,2,4]",Error,b,Lists and Dictionaries,Hard
+78,"What does sorted(d.items(), key=lambda x: x[1]) do?",Sorts dict keys alphabetically,Sorts dict by its values,Sorts dict by its keys,Reverses the dictionary,b,Lists and Dictionaries,Hard
+79,"What is the time complexity of checking if a key exists in a Python dict?",O(n),O(log n),O(1),O(n²),c,Lists and Dictionaries,Hard
+80,"What does zip(*matrix) do when matrix is a list of equal-length lists?",Flattens the matrix,Transposes the matrix,Reverses the matrix,Copies the matrix,b,Lists and Dictionaries,Hard
